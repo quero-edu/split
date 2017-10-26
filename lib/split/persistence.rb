@@ -6,6 +6,7 @@ module Split
     require 'split/persistence/dual_adapter'
     require 'split/persistence/redis_adapter'
     require 'split/persistence/session_adapter'
+    require 'split/persistence/db_adapter'
 
     ADAPTERS = {
       :cookie => Split::Persistence::CookieAdapter,
